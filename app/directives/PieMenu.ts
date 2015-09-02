@@ -1,6 +1,7 @@
-﻿declare var Btn: any;
+﻿/// <reference path='../min.references.ts'/>
 
-/// <reference path='../min.references.ts'/>
+declare var Btn: any;
+
 module Directives {
     class PieMenuDirective implements angular.IDirective {
         public restrict: string = "A";

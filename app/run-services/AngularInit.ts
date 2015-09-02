@@ -1,4 +1,5 @@
-﻿class AngularInit {
+﻿/// <reference path='../min.references.ts'/>
+class AngularInit {
     constructor() {
         angular.module($injections.Constants.AppName)
             .constant($injections.Constants.ApiHost, 'http://bringmehome.2bitcloud.ch/')

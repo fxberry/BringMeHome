@@ -1,4 +1,6 @@
-﻿module Services {
+﻿/// <reference path='../min.references.ts'/>
+
+module Services {
     
     class AddressesProvider implements IAddressesProvider{
 

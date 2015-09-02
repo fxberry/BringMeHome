@@ -1,4 +1,6 @@
-﻿module Services {
+﻿/// <reference path='../min.references.ts'/>
+
+module Services {
     class Routes implements Models.IRoutes {
         IsTooCloseForFoot: boolean;
         Routes: Models.IRoute[];
