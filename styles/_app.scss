@@ -1,0 +1,47 @@
+.row {
+    padding: 0px;
+}
+
+.col {
+    padding: 0px;
+}
+
+.loading-container {
+    .loading {
+        background-color: #ffd42a;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.col-header {
+    font-weight: bold;
+}
+
+.long-col {
+    white-space: normal;
+}
+
+.number-col {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 8pt;
+}
+
+.custom-item {
+    padding: 0px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.location-highlight {
+    border-color: #cccccc;
+    background-color: #d9d9d9;
+}

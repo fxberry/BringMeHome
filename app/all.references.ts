@@ -1,0 +1,40 @@
+///<reference path="../typings/tsd.d.ts"/>
+/// <reference path="interfaces/interface.references.ts" />
+
+//inject:ts
+/// <reference path="app.ts" />
+/// <reference path="constants.ts" />
+/// <reference path="injections.ts" />
+/// <reference path="min.references.ts" />
+/// <reference path="registrations.ts" />
+/// <reference path="routes.ts" />
+/// <reference path="directives/MaxHeight.ts" />
+/// <reference path="controllers/HomeController.ts" />
+/// <reference path="controllers/LanguageController.ts" />
+/// <reference path="controllers/LocationController.ts" />
+/// <reference path="controllers/ConnectionsController.ts" />
+/// <reference path="controllers/TravelDetailsController.ts" />
+/// <reference path="filters/DurationFilter.ts" />
+/// <reference path="filters/FormatFilter.ts" />
+/// <reference path="interfaces/Framework.ts" />
+/// <reference path="interfaces/GeoPosition.ts" />
+/// <reference path="interfaces/Plugins.ts" />
+/// <reference path="interfaces/Routes.ts" />
+/// <reference path="interfaces/Services.ts" />
+/// <reference path="services/SelectedRoute.ts" />
+/// <reference path="services/AvailableRoutes.ts" />
+/// <reference path="services/RoutesConverter.ts" />
+/// <reference path="services/Event.ts" />
+/// <reference path="services/GeoLocationProvider.ts" />
+/// <reference path="run-services/InternetConnectionWatcher.ts" />
+/// <reference path="services/LocalStorage.ts" />
+/// <reference path="run-services/LocalizationConfig.ts" />
+/// <reference path="services/RoutesProvider.ts" />
+/// <reference path="services/TargetAddress.ts" />
+/// <reference path="services/OpenLink.ts" />
+/// <reference path="services/OpenPedestrianRoute.ts" />
+/// <reference path="services/Strings.ts" />
+/// <reference path="services/Urls.ts" />
+/// <reference path="interfaces/models/Models.ts" />
+/// <reference path="interfaces/models/messages/Responses.ts" />
+//end-inject:ts

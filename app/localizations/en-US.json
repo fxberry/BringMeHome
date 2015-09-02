@@ -1,0 +1,247 @@
+[
+  {
+    "key": "home:nearest station resolving:message",
+    "value": "An error occurred",
+    "description": ""
+  },
+  {
+    "key": "home:nearest station resolving:title",
+    "value": "Error",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:message",
+    "value": "You are already really close to your home, so just walk home.",
+    "description": ""
+  },
+  {
+    "key": "loading:walk",
+    "value": "Searching stations...",
+    "description": ""
+  },
+  {
+    "key": "loading:gps",
+    "value": "Searching location...",
+    "description": ""
+  },
+  {
+    "key": "map: title",
+    "value": "Walking route",
+    "description": ""
+  },
+  {
+    "key": "location: title",
+    "value": "Location selection",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:title",
+    "value": "No useful connection found",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:message",
+    "value": "Currently you don't have connection to the internet, please establish connection and retry.",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:title",
+    "value": "Internet connection",
+    "description": ""
+  },
+  {
+    "key": "travel: error title: no results",
+    "value": "Error",
+    "description": ""
+  },
+  {
+    "key": "travel: error message: no results",
+    "value": "There was an error trying to get the connection data, please try again",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: arrival",
+    "value": "arr.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: open direction",
+    "value": "open Map with directions",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: departure",
+    "value": "dep.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: leg",
+    "value": "Leg",
+    "description": ""
+  },
+  {
+    "key": "travel with: walk section",
+    "value": "Walk",
+    "description": ""
+  },
+  {
+    "key": "journey: current position",
+    "value": "Current Position",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: remarks",
+    "value": "Remarks",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: platform",
+    "value": "Plat.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: travel with",
+    "value": "Travel with",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: journey",
+    "value": "Journey",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: time",
+    "value": "Time",
+    "description": ""
+  },
+  {
+    "key": "travel-details: title",
+    "value": "Details for the Connection",
+    "description": ""
+  },
+  {
+    "key": "travel: column: total duration",
+    "value": "Dur.",
+    "description": ""
+  },
+  {
+    "key": "travel: column: changing",
+    "value": "Chg.",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start station",
+    "value": "From",
+    "description": ""
+  },
+  {
+    "key": "travel: column: end time",
+    "value": "Arr",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start time",
+    "value": "Dep",
+    "description": ""
+  },
+  {
+    "key": "travel: label",
+    "value": "Next connections from your current position to {0}",
+    "description": ""
+  },
+  {
+    "key": "travel: title",
+    "value": "Connections",
+    "description": ""
+  },
+  {
+    "key": "loading:message",
+    "value": "Searching connection...",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:message",
+    "value": "We were not able to locate you, please check the GPS is switched on and you are in a position were you can be located",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:title",
+    "value": "No GPS",
+    "description": ""
+  },
+  {
+    "key": "settings: placeholder: search",
+    "value": "enter city street number...",
+    "description": ""
+  },
+  {
+    "key": "settings: change to",
+    "value": "Change to",
+    "description": ""
+  },
+  {
+    "key": "home: label: bring me home",
+    "value": "Bring Me Home",
+    "description": ""
+  },
+  {
+    "key": "label: save",
+    "value": "Save",
+    "description": ""
+  },
+  {
+    "key": "label: cancel",
+    "value": "Cancel",
+    "description": ""
+  },
+  {
+    "key": "settings: Current home address",
+    "value": "Current home address",
+    "description": ""
+  },
+  {
+    "key": "settings: Language selection",
+    "value": "Select language",
+    "description": ""
+  },
+  {
+    "key": "settings: home error",
+    "value": "Please select a location from the list",
+    "description": ""
+  },
+  {
+    "key": "success: location stored",
+    "value": "Location changed.",
+    "description": ""
+  },
+  {
+    "key": "error: no selection",
+    "value": "Please select a location from the list.",
+    "description": ""
+  },
+  {
+    "key": "error: read address",
+    "value": "An unexpectet error ocurred while reading addresses.",
+    "description": ""
+  },
+  {
+    "key": "settings: Current love address",
+    "value": "Choose friend address",
+    "description": ""
+  },
+  {
+    "key": "settings: Current work address",
+    "value": "Choose working address",
+    "description": ""
+  },
+  {
+    "key": "home: label: lets go",
+    "value": "Let's go!",
+    "description": ""
+  },
+  {
+    "key": "home: message open locations",
+    "value": "There are still addresses missing.",
+    "description": ""
+  }
+]

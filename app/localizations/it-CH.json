@@ -1,0 +1,243 @@
+﻿[
+    {
+        "key": "home:nearest station resolving:message",
+        "value": "È stato riscontrato un errore",
+        "description": ""
+    },
+    {
+        "key": "home:nearest station resolving:title",
+        "value": "Errore",
+        "description": ""
+    },
+    {
+        "key": "alert:internet:message",
+        "value": "Nessuna connessione Internet disponibile, aprire connessione Internet e riprovare.",
+        "description": ""
+    },
+    {
+        "key": "location: title",
+        "value": "Selezione località",
+        "description": ""
+    },
+    {
+        "key": "home:fastest station resolving:message",
+        "value": "Dante posizione corrente, si può raggiungere casa con una breve passeggiata.",
+        "description": ""
+    },
+    {
+        "key": "home:fastest station resolving:title",
+        "value": "Nessuna connessione disponibile",
+        "description": ""
+    },
+    {
+        "key": "alert:internet:title",
+        "value": "Connessione Internet",
+        "description": ""
+    },
+    {
+        "key": "travel: error title: no results",
+        "value": "Errore",
+        "description": ""
+    },
+    {
+        "key": "travel: error message: no results",
+        "value": "Errore durante il tentativo di richiamare i dati di connessione, si prega di riprovare",
+        "description": ""
+    },
+    {
+        "key": "travel-details: row: arrival",
+        "value": "arr.",
+        "description": ""
+    },
+    {
+        "key": "travel-details: row: open direction",
+        "value": "apri carta con direzioni",
+        "description": ""
+    },
+    {
+        "key": "travel-details: row: departure",
+        "value": "part.",
+        "description": ""
+    },
+    {
+        "key": "travel-details: row: leg",
+        "value": "Tratto",
+        "description": ""
+    },
+    {
+        "key": "travel with: walk section",
+        "value": "Tratto",
+        "description": ""
+    },
+    {
+        "key": "journey: current position",
+        "value": "Posizione corrente",
+        "description": ""
+    },
+    {
+        "key": "travel-details: column: remarks",
+        "value": "Annotazioni ",
+        "description": ""
+    },
+    {
+        "key": "travel-details: column: platform",
+        "value": "Bin.",
+        "description": ""
+    },
+    {
+        "key": "travel-details: column: travel with",
+        "value": "Corsa in",
+        "description": ""
+    },
+    {
+        "key": "travel-details: column: journey",
+        "value": "Viaggio",
+        "description": ""
+    },
+    {
+        "key": "travel-details: column: time",
+        "value": "Ora",
+        "description": ""
+    },
+    {
+        "key": "travel-details: title",
+        "value": "Dettagli di viaggio",
+        "description": ""
+    },
+    {
+        "key": "travel: column: total duration",
+        "value": "Dur.",
+        "description": ""
+    },
+    {
+        "key": "travel: column: changing",
+        "value": "Cambi",
+        "description": ""
+    },
+    {
+        "key": "travel: column: start station",
+        "value": "Da",
+        "description": ""
+    },
+    {
+        "key": "travel: column: end time",
+        "value": "Arr.",
+        "description": ""
+    },
+    {
+        "key": "travel: column: start time",
+        "value": "Part.",
+        "description": ""
+    },
+    {
+        "key": "travel: label",
+        "value": "Prossime partenze per {0} dalla possizione corrente",
+        "description": ""
+    },
+    {
+        "key": "travel: title",
+        "value": "Partenze",
+        "description": ""
+    },
+    {
+        "key": "loading:message",
+        "value": "Ricerca partenze in corso...",
+        "description": ""
+    },
+    {
+        "key": "alert:gps:message",
+        "value": "Impossibile determinare la posizione corrente, verifichi impostazioni GPS",
+        "description": ""
+    },
+    {
+        "key": "alert:gps:title",
+        "value": "Nessun segnale GPS",
+        "description": ""
+    },
+    {
+        "key": "settings: placeholder: search",
+        "value": "Cerca",
+        "description": ""
+    },
+    {
+        "key": "settings: change to",
+        "value": "Modifica in",
+        "description": ""
+    },
+    {
+        "key": "home: label: bring me home",
+        "value": "Portami a casa",
+        "description": ""
+    },
+    {
+        "key": "label: save",
+        "value": "Salva",
+        "description": ""
+    },
+    {
+        "key": "label: cancel",
+        "value": "Annulla",
+        "description": ""
+    },
+    {
+        "key": "settings: Current home address",
+        "value": "Indirizzo casa",
+        "description": ""
+    },
+    {
+        "key": "settings: Language selection",
+        "value": "Selezionare la lingua",
+        "description": ""
+    },
+    {
+        "key": "settings: home error",
+        "value": "Selezionare una località dalla lista",
+        "description": ""
+    },
+    {
+        "key": "success: location stored",
+        "value": "Località modificata.",
+        "description": ""
+    },
+    {
+        "key": "error: no selection",
+        "value": "Selezionare una località dalla lista",
+        "description": ""
+    },
+    {
+        "key": "error: read address",
+        "value": "Errore non previsto durante lettura indirizzi.",
+        "description": ""
+    },
+    {
+        "key": "loading:walk",
+        "value": "Ricerca stazione...",
+        "description": ""
+    },
+    {
+        "key": "loading:gps",
+        "value": "Ricerca posizione...",
+        "description": ""
+    },
+    {
+        "key": "settings: Current love address",
+        "value": "Indirizzo partner",
+        "description": ""
+    },
+    {
+        "key": "settings: Current work address",
+        "value": "Indirizzo luogo di lavoro",
+        "description": ""
+    },
+    {
+        "key": "home: label: lets go",
+        "value": "Vai",
+        "description": ""
+    },
+    {
+        "key": "home: message open locations",
+        "value": "Aggiungi indirizzo",
+        "description": ""
+    }
+
+]

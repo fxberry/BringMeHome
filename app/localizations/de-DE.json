@@ -1,0 +1,247 @@
+﻿[
+  {
+    "key": "home:nearest station resolving:message",
+    "value": "Es ist ein unerwarteter Fehler aufgetreten. Versuchen sie es erneut.",
+    "description": ""
+  },
+  {
+    "key": "location: title",
+    "value": "Station auswählen",
+    "description": ""
+  },
+  {
+    "key": "home:nearest station resolving:title",
+    "value": "Fehler",
+    "description": ""
+  },
+  {
+    "key": "loading:walk",
+    "value": "Station suchen...",
+    "description": ""
+  },
+  {
+    "key": "loading:gps",
+    "value": "Standort suchen...",
+    "description": ""
+  },
+  {
+    "key": "map: title",
+    "value": "Gehweg",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:message",
+    "value": "Der schnellste Weg nach Hause ist direkt zu Fuss.",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:title",
+    "value": "Keine nützliche Verbindung gefunden",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:message",
+    "value": "Verbindung zum Internet verloren. Versuchen Sie es erneut, sobald sie wieder eine Verbindung haben.",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:title",
+    "value": "Internet Verbindung",
+    "description": ""
+  },
+  {
+    "key": "travel: error title: no results",
+    "value": "Fehler",
+    "description": ""
+  },
+  {
+    "key": "travel: error message: no results",
+    "value": "Es ist ein Fehler beim Versuch die schnellste Verbindung zu finden aufgetreten. Bitte versuchen Sie es erneut.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: arrival",
+    "value": "An.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: open direction",
+    "value": "Karte mit Weganzeige öffnen.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: departure",
+    "value": "Ab.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: leg",
+    "value": "Abs.",
+    "description": ""
+  },
+  {
+    "key": "travel with: walk section",
+    "value": "zu Fuss",
+    "description": ""
+  },
+  {
+    "key": "journey: current position",
+    "value": "Aktuelle Position",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: remarks",
+    "value": "Bemerkung",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: platform",
+    "value": "Gl.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: travel with",
+    "value": "Reise mit",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: journey",
+    "value": "Reise",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: time",
+    "value": "Zeit",
+    "description": ""
+  },
+  {
+    "key": "travel-details: title",
+    "value": "Verbindungsdetails",
+    "description": ""
+  },
+  {
+    "key": "travel: column: total duration",
+    "value": "Dauer",
+    "description": ""
+  },
+  {
+    "key": "travel: column: changing",
+    "value": "Umst.",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start station",
+    "value": "Von",
+    "description": ""
+  },
+  {
+    "key": "travel: column: end time",
+    "value": "An",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start time",
+    "value": "Ab",
+    "description": ""
+  },
+  {
+    "key": "travel: label",
+    "value": "Nächste Verbindung von Ihrer Position nach {0}",
+    "description": ""
+  },
+  {
+    "key": "travel: title",
+    "value": "Verbindungen",
+    "description": ""
+  },
+  {
+    "key": "loading:message",
+    "value": "Suche Verbindung...",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:message",
+    "value": "Sie konnten nicht lokalisiert werden. Bitte stellen sie sicher, dass das GPS eingeschalten ist und Sie eine Verbindung haben.",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:title",
+    "value": "Kein GPS",
+    "description": ""
+  },
+  {
+    "key": "settings: placeholder: search",
+    "value": "Ort, Strasse Nummer",
+    "description": ""
+  },
+  {
+    "key": "settings: change to",
+    "value": "Wechseln zu",
+    "description": ""
+  },
+  {
+    "key": "home: label: bring me home",
+    "value": "Bring Me Home",
+    "description": ""
+  },
+  {
+    "key": "label: save",
+    "value": "Speichern",
+    "description": ""
+  },
+  {
+    "key": "label: cancel",
+    "value": "Abbrechen",
+    "description": ""
+  },
+  {
+    "key": "settings: Current home address",
+    "value": "Aktuelle Wohnadresse",
+    "description": ""
+  },
+  {
+    "key": "settings: Language selection",
+    "value": "Sprache auswählen",
+    "description": ""
+  },
+  {
+    "key": "settings: home error",
+    "value": "Bitte einen Standort von der Liste auswählen",
+    "description": ""
+  },
+  {
+    "key": "success: location stored",
+    "value": "Heimatort gewechselt.",
+    "description": ""
+  },
+  {
+    "key": "error: no selection",
+    "value": "Bitte eine Station von der Liste auswählen.",
+    "description": ""
+  },
+  {
+    "key": "error: read address",
+    "value": "Ein unerwarter Fehler ist beim Lesen der Adressen aufgetreten.",
+    "description": ""
+  },
+  {
+    "key": "settings: Current love address",
+    "value": "Aktuelle Freundesadresse",
+    "description": ""
+  },
+  {
+    "key": "settings: Current work address",
+    "value": "Aktuelle Arbeitgeberadresse",
+    "description": ""
+  },
+  {
+    "key": "home: label: lets go",
+    "value": "Los gehts!",
+    "description": ""
+  },
+  {
+    "key": "home: message open locations",
+    "value": "Es können noch weitere Adressen angegeben werden.",
+    "description": ""
+  }
+]

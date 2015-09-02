@@ -1,0 +1,247 @@
+﻿[
+  {
+    "key": "home:nearest station resolving:message",
+    "value": "Igl è capità in'errur nunspetgada. Empruvai p.pl. anc ina giada.",
+    "description": ""
+  },
+  {
+    "key": "location: title",
+    "value": "Eleger la staziun",
+    "description": ""
+  },
+  {
+    "key": "settings: Current love address",
+    "value": "Adressa actuala da l'ami",
+    "description": ""
+  },
+  {
+    "key": "settings: Current work address",
+    "value": "Adressa actuala dal patrun",
+    "description": ""
+  },
+  {
+    "key": "home: label: lets go",
+    "value": "Partir ussa!",
+    "description": ""
+  },
+  {
+    "key": "home:nearest station resolving:title",
+    "value": "Errur",
+    "description": ""
+  },
+  {
+    "key": "loading:walk",
+    "value": "Tschertgar la staziun ...",
+    "description": ""
+  },
+  {
+    "key": "loading:gps",
+    "value": "Tschertgar la posiziun ...",
+    "description": ""
+  },
+  {
+    "key": "map: title",
+    "value": "Via a pe",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:message",
+    "value": "Il pli spert vegnis Vus a chasa cun ir a pe.",
+    "description": ""
+  },
+  {
+    "key": "home:fastest station resolving:title",
+    "value": "Chattà naginas colliaziuns utilas.",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:message",
+    "value": "Pers la connexiun d'internet. Empruvai anc ina giada, cura che Vus avais puspè ina connexiun.",
+    "description": ""
+  },
+  {
+    "key": "alert:internet:title",
+    "value": "Connexiun d'internet",
+    "description": ""
+  },
+  {
+    "key": "travel: error title: no results",
+    "value": "Errur",
+    "description": ""
+  },
+  {
+    "key": "travel: error message: no results",
+    "value": "Igl è capità in'errur cun tschertgar la colliaziun la pli sperta. Empruvai p.pl. anc ina giada.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: arrival",
+    "value": "Ar.",
+    "description": "Arrivada"
+  },
+  {
+    "key": "travel-details: row: open direction",
+    "value": "Avrir ina charta cun indicaziuns da la via.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: row: departure",
+    "value": "Pa.",
+    "description": "Partenza"
+  },
+  {
+    "key": "travel-details: row: leg",
+    "value": "Part",
+    "description": ""
+  },
+  {
+    "key": "travel with: walk section",
+    "value": "a pe",
+    "description": ""
+  },
+  {
+    "key": "journey: current position",
+    "value": "Posiziun actuala",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: remarks",
+    "value": "Remartgas",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: platform",
+    "value": "Bin.",
+    "description": "Binari"
+  },
+  {
+    "key": "travel-details: column: travel with",
+    "value": "Viadi cun",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: journey",
+    "value": "Viadi",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: time",
+    "value": "Temp",
+    "description": ""
+  },
+  {
+    "key": "travel-details: title",
+    "value": "Detagls da la colliaziun",
+    "description": ""
+  },
+  {
+    "key": "travel: column: total duration",
+    "value": "Dur.",
+    "description": "Durada"
+  },
+  {
+    "key": "travel: column: changing",
+    "value": "Mid.",
+    "description": "Staziuns da midar"
+  },
+  {
+    "key": "travel: column: start station",
+    "value": "Da",
+    "description": ""
+  },
+  {
+    "key": "travel: column: end time",
+    "value": "A",
+    "description": "Arrivada"
+  },
+  {
+    "key": "travel: column: start time",
+    "value": "Par.",
+    "description": "Partenza"
+  },
+  {
+    "key": "travel: label",
+    "value": "La proxima colliaziun da Vossa posiziun a {0}",
+    "description": ""
+  },
+  {
+    "key": "travel: title",
+    "value": "Colliaziuns",
+    "description": ""
+  },
+  {
+    "key": "loading:message",
+    "value": "Tschertgar ina colliaziun ...",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:message",
+    "value": "Nus n'avain betg pudì localiar Vus. Verifitgai p.pl. che Vus avais activà il GPS e che Vus avais ina connexiun.",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:title",
+    "value": "Nagin GPS",
+    "description": ""
+  },
+  {
+    "key": "settings: placeholder: search",
+    "value": "Tschertga",
+    "description": ""
+  },
+  {
+    "key": "settings: change to",
+    "value": "Midar a",
+    "description": ""
+  },
+  {
+    "key": "home: label: bring me home",
+    "value": "Maina mai a chasa",
+    "description": ""
+  },
+  {
+    "key": "label: save",
+    "value": "Memorisar",
+    "description": ""
+  },
+  {
+    "key": "label: cancel",
+    "value": "Interrumper",
+    "description": ""
+  },
+  {
+    "key": "settings: Current home address",
+    "value": "Adressa da domicil actuala",
+    "description": ""
+  },
+  {
+    "key": "settings: Language selection",
+    "value": "Eleger la lingua",
+    "description": ""
+  },
+  {
+    "key": "settings: home error",
+    "value": "P.pl. eleger ina posiziun da la glista",
+    "description": ""
+  },
+  {
+    "key": "success: location stored",
+    "value": "Midà il lieu da domicil.",
+    "description": ""
+  },
+  {
+    "key": "error: no selection",
+    "value": "P.pl. eleger ina staziun da la glista",
+    "description": ""
+  },
+  {
+    "key": "error: read address",
+    "value": "Igl è capità in'errur nunspetgada cun leger las adressas.",
+    "description": ""
+  },
+  {
+    "key": "home: message open locations",
+    "value": "Ti pos anc inditgar ulteriuras adressas.",
+    "description": ""
+  }
+]

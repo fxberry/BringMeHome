@@ -1,0 +1,47 @@
+<ion-view hide-back-button="true" align-title="center" view-title="{{'location: title' | i18n}}">
+    <ion-content scroll="false" padding="15" ion-content-ref="">
+        <h5 style="font-style: italic" ng-if="Type === 'home'">
+            {{'settings: Current home address' | i18n}}:
+        </h5>
+        <h5 style="font-style: italic" ng-if="Type === 'work'">
+            {{'settings: Current work address' | i18n}}:
+        </h5>
+        <h5 style="font-style: italic" ng-if="Type === 'love'">
+            {{'settings: Current love address' | i18n}}:
+        </h5>
+        <h4 style="margin-bottom: 20px;"><b>{{Address}}</b></h4>
+        <div name="homeSelection">
+            <div>
+                {{'settings: change to' | i18n}}:
+            </div>
+            <div class="item item-input-inset">
+                <label class="item-input-wrapper">
+                    <input id="selectedLocation" required type="text" placeholder="{{'settings: placeholder: search' | i18n}}" ng-model="Model.Address" ng-model-options="{ debounce: 1500 }">
+                </label>
+                <button class="button button-small button-energized icon ion-search placeholder-icon"></button>
+            </div>
+            <ion-scroll max-height="">
+                <ion-list class="address-suggestions">
+                    <ion-item class="item" ng-click="Select(address)" ng-class="{'location-highlight' : Selected == address}"
+                              ng-repeat="address in Addresses">
+                        {{address}}
+                    </ion-item>
+                </ion-list>
+            </ion-scroll>
+            <div class="row">
+                <div class="col" ng-style="{'padding-right: 5px':Init === false}">
+                    <button ng-disabled="homeSelection.$invalid || HasNoSelection()" class="button button-block button-positive"
+                            ng-click="Save()">
+                        {{'label: save' | i18n}}
+                    </button>
+                </div>
+                <div class="col" style="padding-left: 5px" ng-if="Init === false">
+                    <button class="button button-block"
+                            ng-click="Cancel()">
+                        {{'label: cancel' | i18n}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,247 @@
+﻿[
+  {
+    "key": "home:nearest station resolving:message",
+    "value": "Es isch an unerwarteta Fehler ufträta probiars bitte nomol.",
+    "description": "Es isch en unerwartete Fehler uftrete probiers bitte nomal"
+  },
+  {
+    "key": "location: title",
+    "value": "Station uswähla",
+    "description": "Station uswähle"
+  },
+  {
+    "key": "home:nearest station resolving:title",
+    "value": "Fehler",
+    "description": "Fehler"
+  },
+  {
+    "key": "map: title",
+    "value": "Fuassweg",
+    "description": "Fuessweg"
+  },
+  {
+    "key": "home:fastest station resolving:message",
+    "value": "Du bisch am schnellsta dahei wenn direkt laufsch.",
+    "description": "Du bisch am schnellste dihei wenn direkt laufsch"
+  },
+  {
+    "key": "home:fastest station resolving:title",
+    "value": "Kei bruchbari Verbindig gfunda",
+    "description": "Kei bruchbari Verbindig gfunde"
+  },
+  {
+    "key": "alert:internet:message",
+    "value": "D Internetverbindig isch unterbrocha, probiars nomol sobald wieder Verbindig hesch.",
+    "description": "D Internetverbindig isch unterbroche, probiers nomal sobald wieder Verbindig hesch"
+  },
+  {
+    "key": "alert:internet:title",
+    "value": "Internet Verbindig",
+    "description": "Internet Verbindig"
+  },
+  {
+    "key": "travel: error title: no results",
+    "value": "Fehler",
+    "description": "Fehler"
+  },
+  {
+    "key": "travel: error message: no results",
+    "value": "Es isch an Fehler bim finda vur schnellsta Verbindig ufträta, probiars doch nomol.",
+    "description": "Es isch en Fehler bim finde vo de schnellste Verbindig uftrete, probiers doch nomal"
+  },
+  {
+    "key": "travel-details: row: arrival",
+    "value": "An.",
+    "description": "An."
+  },
+  {
+    "key": "travel-details: row: open direction",
+    "value": "Karta mir Wegazeig öffna",
+    "description": "Charte mit de Wegaazeig öffne"
+  },
+  {
+    "key": "travel-details: row: departure",
+    "value": "Ab.",
+    "description": "Ab."
+  },
+  {
+    "key": "travel-details: row: leg",
+    "value": "Abs.",
+    "description": "Abs."
+  },
+  {
+    "key": "travel with: walk section",
+    "value": "ds Fuass",
+    "description": "z Fuess"
+  },
+  {
+    "key": "journey: current position",
+    "value": "Aktuelli Position",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: remarks",
+    "value": "Bemerkige",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: platform",
+    "value": "Gl.",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: travel with",
+    "value": "Reis mit",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: journey",
+    "value": "Reis",
+    "description": ""
+  },
+  {
+    "key": "travel-details: column: time",
+    "value": "Ziit",
+    "description": ""
+  },
+  {
+    "key": "travel-details: title",
+    "value": "Verbindigsdetails",
+    "description": ""
+  },
+  {
+    "key": "travel: column: total duration",
+    "value": "Duur",
+    "description": ""
+  },
+  {
+    "key": "travel: column: changing",
+    "value": "Umst.",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start station",
+    "value": "Vo",
+    "description": ""
+  },
+  {
+    "key": "travel: column: end time",
+    "value": "A",
+    "description": ""
+  },
+  {
+    "key": "travel: column: start time",
+    "value": "Ab",
+    "description": ""
+  },
+  {
+    "key": "travel: label",
+    "value": "Nöchsti Verbindig vo de aktuelle Situation aa {0}",
+    "description": ""
+  },
+  {
+    "key": "travel: title",
+    "value": "Verbindig",
+    "description": ""
+  },
+  {
+    "key": "loading:message",
+    "value": "Sueche Verbindig...",
+    "description": ""
+  },
+  {
+    "key": "loading:walk",
+    "value": "Sueche Statione...",
+    "description": ""
+  },
+  {
+    "key": "loading:gps",
+    "value": "Sueche Standort...",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:message",
+    "value": "Lokalisiarig isch fehlgschlage, stell bitte sicher das s GPS igstellt isch und Empfang het.",
+    "description": ""
+  },
+  {
+    "key": "alert:gps:title",
+    "value": "Kei GPS",
+    "description": ""
+  },
+  {
+    "key": "settings: placeholder: search",
+    "value": "Sueche",
+    "description": ""
+  },
+  {
+    "key": "settings: change to",
+    "value": "Wechsle zu",
+    "description": ""
+  },
+  {
+    "key": "home: label: bring me home",
+    "value": "Bring Me Home",
+    "description": ""
+  },
+  {
+    "key": "label: save",
+    "value": "Speichere",
+    "description": ""
+  },
+  {
+    "key": "label: cancel",
+    "value": "Abbreche",
+    "description": ""
+  },
+  {
+    "key": "settings: Current home address",
+    "value": "Aktuellsti Heimatstation",
+    "description": ""
+  },
+  {
+    "key": "settings: Language selection",
+    "value": "Sprach uswähle",
+    "description": ""
+  },
+  {
+    "key": "settings: home error",
+    "value": "Bitte en Standort us de Liste uswähle",
+    "description": ""
+  },
+  {
+    "key": "success: location stored",
+    "value": "Standort gwächslet",
+    "description": ""
+  },
+  {
+    "key": "error: no selection",
+    "value": "Bitte e Station us de Liste uswähle",
+    "description": ""
+  },
+  {
+    "key": "error: read address",
+    "value": "Es isch en unerwartete Fehler bim lese vo de Adressene uftrete.",
+    "description": ""
+  },
+    {
+    "key": "settings: Current love address",
+    "value": "Adresse vom Partner wähle",
+    "description": ""
+  },
+  {
+    "key": "settings: Current work address",
+    "value": "Adresse vom schaffe wähle",
+    "description": ""
+  },
+  {
+    "key": "home: label: lets go",
+    "value": "Abfahre jetzt!",
+    "description": ""
+  },
+  {
+    "key": "home: message open locations",
+    "value": "Du chasch no meh Adressene ageh.",
+    "description": ""
+  }
+]
