@@ -2,3 +2,5 @@ app/**/*.map
 app/**/*.js
 typings/
 .idea/
+bower_components/
+node_modules/
