@@ -8,8 +8,8 @@
 /// <reference path="min.references.ts" />
 /// <reference path="registrations.ts" />
 /// <reference path="routes.ts" />
-
-
+/// <reference path="controllers/HomeController.ts" />
+/// <reference path="controllers/MenuController.ts" />
 /// <reference path="interfaces/Framework.ts" />
 /// <reference path="interfaces/Routes.ts" />
 /// <reference path="services/Event.ts" />

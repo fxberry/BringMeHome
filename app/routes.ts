@@ -15,6 +15,24 @@ module Routes {
 
         constructor($stateProvider: IStateProvider, $urlRouterProvider: angular.ui.IUrlRouterProvider) {
 
+            $stateProvider.
+                state('menu', {
+                    url: "/menu",
+                    abstract: true,
+                    templateUrl: "app/views/menu.html",
+                    controller: $injections.Controllers.MenuController
+                })
+
+                .state($injections.Routes.HomeState, {
+                    url: "/home",
+                    views: {
+                        'menuContent': {
+                            templateUrl: "app/views/home.html",
+                            controller: $injections.Controllers.HomeController
+                        }
+                    },
+                    clearHistory: true
+                });
 
 
             // if none of the above states are matched, use this as the fallback

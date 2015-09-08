@@ -16,13 +16,12 @@ module $injections{
     }
 
     export module Routes {
-
-
+        export var HomeState:string = 'menu.home';
     }
 
     export module Controllers {
-
-
+        export var HomeController = 'HomeController';
+        export var MenuController = 'MenuController';
     }
 
     export module Services {
