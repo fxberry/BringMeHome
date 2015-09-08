@@ -16,23 +16,17 @@ module $injections{
     }
 
     export module Routes {
-        export var LanguageState: string = 'menu.language';
-        export var HomeState:string = 'menu.home';
+
+
     }
 
     export module Controllers {
-        export var LanguageController: string = 'LanguageController';
-        export var HomeController:string = 'HomeController';
-        export var MenuController: string = 'MenuController';
+
+
     }
 
     export module Services {
-        export var Strings: string = 'Strings';
-        export var LocalizationProvider: string = 'LocalizationProvider';
-        export var LocalStorage:string = 'LocalStorage';
-        export var RoutesProvider: string = 'RoutesProvider';
-        export var Navigation: string = 'Navigation';
-        export var Logger: string = 'Logger';
+
     }
 
     export module Ionic {

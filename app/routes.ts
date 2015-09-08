@@ -15,35 +15,7 @@ module Routes {
 
         constructor($stateProvider: IStateProvider, $urlRouterProvider: angular.ui.IUrlRouterProvider) {
 
-            $stateProvider.
-                state('menu', {
-                url: "/menu",
-                abstract: true,
-                templateUrl: "app/views/menu.html",
-                controller: $injections.Controllers.MenuController
-            })
 
-                .state($injections.Routes.HomeState, {
-                url: "/home",
-                views: {
-                    'menuContent': {
-                        templateUrl: "app/views/home.html",
-                        controller: $injections.Controllers.HomeController
-                    }
-                },
-                clearHistory: true
-            });/*
-
-                .state($injections.Routes.LanguageState, {
-                url: "/language",
-                views: {
-                    'menuContent': {
-                        templateUrl: "app/views/language.html",
-                        controller: $injections.Controllers.LanguageController
-                    }
-                }
-            })
-            */
 
             // if none of the above states are matched, use this as the fallback
             $urlRouterProvider.otherwise('/menu/home');
