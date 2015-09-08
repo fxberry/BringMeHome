@@ -2,10 +2,6 @@
 
 module Controllers {
 
-    class InputModel {
-        Address: string;
-    }
-
     interface ILanguageScope extends angular.IScope {
         Cancel();
         Save();        
@@ -14,14 +10,9 @@ module Controllers {
     }
 
     class LanguageController {
-        private stopWatch: Function = null;
 
         static $inject = [
             $injections.Angular.$Scope,
-            $injections.Services.Navigation,            
-            $injections.Services.LocalStorage,
-            $injections.Services.LocalizationProvider,
-            $injections.UIRouter.$StateParams,
             $injections.Constants.$Angular
         ];
 
@@ -37,31 +28,15 @@ module Controllers {
 
         constructor(
             private $scope: ILanguageScope,
-            private navigation: Services.INavigation,
-            private localStorage: Services.ILocalStorage,
-            private localizationPorvider: any,
-            private $stateParams: angular.ui.IStateParamsService,
             private $angular: angular.IAngularStatic) {
 
-            $scope.Save = this.Save;
-            $scope.Cancel = this.Cancel;
-            $scope.SelectedLanguage = {code: this.localStorage.get('language') };
-            $scope.Languages = this.languages;            
+
         }
 
         private Save = () => {
-            if (!this.$scope.SelectedLanguage.code)
-                return;
-
-            this.localStorage.save('language', this.$scope.SelectedLanguage.code);
-            this.localizationPorvider.ExecuteLocalization();
-
-            //to ensure language is properly initialized a delay is required --> resolved with switch to angular translate
-            setTimeout(() => this.Cancel(), 200);
         };
 
         private Cancel = () => {
-            this.navigation.Home();
         };
     }
 

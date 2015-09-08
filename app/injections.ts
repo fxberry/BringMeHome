@@ -89,12 +89,6 @@ module $injections{
         export var $SCEDelegateProvider:string = '$sceDelegateProvider';
     }
 
-    export module Plugins {
-        export var NetworkConnectionPlugin:string = 'NetworkConnectionPlugin';
-        export var GlobalizationPlugin:string = 'GlobalizationPlugin';
-        export var GeoLocationPlugin:string = 'GeoLocationPlugin';
-    }
-
     export module UIRouter{
         export var $StateProvider:string = '$stateProvider';
         export var $UrlRouterProvider:string = '$urlRouterProvider';
