@@ -107,4 +107,17 @@ gulp.task('wp8', ['bundlejs', 'bundlecss', 'images'], function () {
 //        }));
 //});
 
+/*
+ * Remove *.map, *.js files from the app folder
+ */
+gulp.task('cleanMapJs', function(){
+    return gulp.src([
+        './app/**/*.js',
+        './app/**/*.map'])
+        .pipe(plug.clean({force: true}))
+});
+
+// npm i --save-dev gulp-serve
+gulp.task('serve', plug.serve()); // will be served at port :3000
+
 gulp.task('default', ['bundlejs', 'bundlecss', 'images', 'wp8']);
