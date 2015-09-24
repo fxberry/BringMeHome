@@ -12,7 +12,7 @@
         <h4 style="margin-bottom: 20px;"><b>{{Address}}</b></h4>
         <div name="homeSelection">
             <div>
-                settings: change to:
+                change to:
             </div>
             <div class="item item-input-inset">
                 <label class="item-input-wrapper">
@@ -22,8 +22,7 @@
             </div>
             <ion-scroll max-height="">
                 <ion-list class="address-suggestions">
-                    <ion-item class="item" ng-click="Select(address)" ng-class="{'location-highlight' : Selected == address}"
-                              ng-repeat="address in Addresses">
+                    <ion-item ng-repeat="address in Addresses" class="item" ng-click="Select(address)" ng-class="{'location-highlight' : Selected == address}">
                         {{address}}
                     </ion-item>
                 </ion-list>

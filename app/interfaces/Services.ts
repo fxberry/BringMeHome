@@ -9,6 +9,14 @@ module Services {
         clearAll(): void;
     }
 
+    export interface ITargetAddress {
+        //GetAddress(): string;
+        GetAddressBy(type: string): string;
+        SetAddress(type: string, address: string);
+        HasAddress(type: string): boolean;
+        hasAllLocationSet(): boolean;
+    }
+
     export interface IAddressesProvider {
         getAddresses(query: string): angular.IPromise<string[]>;
     }

@@ -29,6 +29,7 @@ module $injections{
     export module Services {
         export var Logger = 'Logger';
         export var LocalStorage = 'LocalStorage';
+        export var TargetAddress = 'TargetAddress';
         export var AddressesProvider: string = 'AddressesProvider';
         export var Urls:string = 'Urls';
     }

@@ -9,4 +9,10 @@ module $constants
         }
     }
 
+    export module TargetAdresses {
+        export var home: string = 'home';
+        export var work: string = 'work';
+        export var love: string = 'love';
+    }
+
 }

@@ -14,6 +14,7 @@
 /// <reference path="services/Urls.ts" />
 /// <reference path="services/AddressesProvider.ts" />
 /// <reference path="services/LocalStorage.ts" />
+/// <reference path="services/TargetAddress.ts" />
 /// <reference path="interfaces/Framework.ts" />
 /// <reference path="interfaces/Routes.ts" />
 /// <reference path="services/Event.ts" />
