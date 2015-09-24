@@ -9,4 +9,12 @@ module Services {
         clearAll(): void;
     }
 
+    export interface IAddressesProvider {
+        getAddresses(query: string): angular.IPromise<string[]>;
+    }
+
+    export interface IUrls {
+        Addresses(): string;
+    }
+
 }

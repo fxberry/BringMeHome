@@ -11,6 +11,8 @@ class RegisterComponents {
 
         new Services.IonicConfigServicesRegister(application);
         new Services.LocalStorageRegister(application);
+        new Services.AddressesProviderRegister(application);
+        new Services.UrlsRegister(application);
 
         new Framework.EventFactoryRegister(application);
 
