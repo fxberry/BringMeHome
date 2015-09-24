@@ -32,6 +32,7 @@ module $injections{
         export var TargetAddress = 'TargetAddress';
         export var AddressesProvider: string = 'AddressesProvider';
         export var Urls:string = 'Urls';
+        export var LocalizationProvider: string = 'LocalizationProvider';
     }
 
     export module Ionic {
@@ -63,4 +64,5 @@ module $injections{
         export var $StateService:string = '$state';
         export var $StateParams:string = '$stateParams';
     }
+
 }

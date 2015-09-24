@@ -14,6 +14,7 @@ class RegisterComponents {
         new Services.AddressesProviderRegister(application);
         new Services.LocationsRegister(application);
         new Services.UrlsRegister(application);
+        new Services.LocalizationConfigRegister(application);
 
         new Framework.EventFactoryRegister(application);
 

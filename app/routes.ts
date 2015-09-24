@@ -20,7 +20,12 @@ module Routes {
                     url: "/menu",
                     abstract: true,
                     templateUrl: "app/views/menu.html",
-                    controller: $injections.Controllers.MenuController
+                    controller: $injections.Controllers.MenuController,
+                    resolve: {
+                        loadLocalization: [$injections.Services.LocalizationProvider, (localizationProvider: Services.LocalizationConfig) => {
+                            return localizationProvider.ExecuteLocalization();
+                        }]
+                    }
                 })
 
                 .state($injections.Routes.HomeState, {
