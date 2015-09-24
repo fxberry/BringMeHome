@@ -49,7 +49,7 @@ module Services {
                     this.$http.get(this.GetLanguageResourceUrl(language))
                         .success(() => {
                         this.SetLanguage(language, url);
-                        deferred.resolve();
+                        setTimeout(() => deferred.resolve(), 100);
                     })
                         .error(() => this.TryToSetLanguage('en-US', deferred));
                 } else this.SetLanguage(language, url);
