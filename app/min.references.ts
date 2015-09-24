@@ -2,3 +2,5 @@
 /// <reference path="interfaces/interface.references.ts" />
 /// <reference path="injections.ts" />
 /// <reference path="constants.ts" />
+
+/// <reference path="services/Logger.ts" />

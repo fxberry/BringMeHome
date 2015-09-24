@@ -25,7 +25,7 @@ module $injections{
     }
 
     export module Services {
-
+        export var Logger = 'Logger';
     }
 
     export module Ionic {

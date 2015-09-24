@@ -9,12 +9,16 @@ module Controllers {
         static $inject = [
             $injections.Angular.$Scope,
             $injections.Ionic.$ionicPopup,
-            $injections.Ionic.$ionicLoading
+            $injections.Ionic.$ionicLoading,
+            $injections.Services.Logger
         ];
 
         constructor(private $scope: IHomeScope,
                     private $ionicPopup: any,
-                    private $ionicLoading: any) {
+                    private $ionicLoading: any,
+                    private logger : Services.Logger) {
+
+            this.logger.log('request finished successfull', 'empty', this, true);
 
 
         }
