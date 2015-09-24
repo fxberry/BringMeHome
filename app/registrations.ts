@@ -10,6 +10,7 @@ class RegisterComponents {
         new Controllers.LocationControllerRegister(application);
 
         new Services.IonicConfigServicesRegister(application);
+        new Services.LocalStorageRegister(application);
 
         new Framework.EventFactoryRegister(application);
 

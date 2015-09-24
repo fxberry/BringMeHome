@@ -28,6 +28,7 @@ module $injections{
 
     export module Services {
         export var Logger = 'Logger';
+        export var LocalStorage = 'LocalStorage';
     }
 
     export module Ionic {
