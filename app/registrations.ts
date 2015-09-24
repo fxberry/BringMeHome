@@ -7,6 +7,7 @@ class RegisterComponents {
 
         new Controllers.MenuControllerRegister(application);
         new Controllers.HomeControllerRegister(application);
+        new Controllers.LocationControllerRegister(application);
 
         new Services.IonicConfigServicesRegister(application);
 

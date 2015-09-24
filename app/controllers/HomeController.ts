@@ -20,7 +20,6 @@ module Controllers {
 
             this.logger.log('request finished successfull', 'empty', this, true);
 
-
         }
     }
 

@@ -1,4 +1,4 @@
-<ion-side-menus enable-menu-with-back-views="false">
+﻿<ion-side-menus enable-menu-with-back-views="false">
     <ion-side-menu-content>
         <ion-nav-bar class="bar-energized">
             <ion-nav-back-button class="button-icon ion-arrow-left-c">
@@ -17,6 +17,12 @@
             <ion-list>
                 <ion-item menu-close ui-sref="menu.location({type: 'home'})">
                     <i class="icon ion-home" style="margin-right: 10px"></i>Current home address
+                </ion-item>
+                <ion-item menu-close ui-sref="menu.location({type: 'work'})">
+                    <i class="icon ion-briefcase" style="margin-right: 10px"></i>Current work address
+                </ion-item>
+                <ion-item menu-close ui-sref="menu.location({type: 'love'})">
+                    <i class="icon ion-heart" style="margin-right: 10px"></i>Current love address
                 </ion-item>
             </ion-list>
         </ion-content>

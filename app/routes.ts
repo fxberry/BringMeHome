@@ -32,6 +32,15 @@ module Routes {
                         }
                     },
                     clearHistory: true
+                })
+                .state($injections.Routes.LocationState, {
+                    url: "/location/:type",
+                    views: {
+                        'menuContent': {
+                            templateUrl: "app/views/location.html",
+                            controller: $injections.Controllers.LocationController
+                        }
+                    }
                 });
 
 
