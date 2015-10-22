@@ -44,29 +44,47 @@ module Services {
         Provider: IGeoLocationProvider = () => {
             var defer = this.$q.defer<GeoPosition.IPosition>();
 
-            // TODO: Create the success callback returning IPosition (think about passing the defer to handle the behavoir of the promise)
-            // TODO: Create the error callback returning IError (think about passing the defer to handle the behavoir of the promise)
-
+            var onSuccess = (position: Plugins.GeoLocation.IPosition) => this.OnPositionReceived(position, defer);
+            var onError = (error: Plugins.GeoLocation.IError) => this.OnError(error, defer);
+            this.geoLocationPlugin.getCurrentPosition(onSuccess, onError, new GeoLocationOptions());
 
             return defer.promise;
         };
 
         private OnPositionReceived = (pos: Plugins.GeoLocation.IPosition, defer: angular.IDeferred<GeoPosition.IPosition>) => {
-            // TODO: fill positions and coordinates and then resolve
+            var coordinates = new Coordinates();
+            coordinates.Accuracy = pos.coords.accuracy;
+            coordinates.Altitude = pos.coords.altitude;
+            coordinates.AltitudeAccuracy = pos.coords.altitudeAccuracy;
+            coordinates.Heading = pos.coords.heading;
+
+            coordinates.Latitude = pos.coords.latitude;
+            coordinates.Longitude = pos.coords.longitude;
+
+            coordinates.Speed = pos.coords.speed;
+
+            var position = new Position();
+            position.TimeStamp = pos.timestamp;
+            position.Coordinates = coordinates;
+
+            defer.resolve(position);
         };
 
         private OnError = (er: Plugins.GeoLocation.IError, defer: angular.IDeferred<GeoPosition.IPosition>) => {
-            // TODO: create Error object
-            // TODO: Log the error via logger
-            // TODO: reject the defer
+            var error = new Error();
+            error.Code = er.code;
+            error.Message = er.message;
+
+            this.logger.logError(er.message, er, this, false);
+            defer.reject(error);
         };
     }
 
     class GeoLocationProviderFactory {
 
         $get = [$injections.Angular.$injector, ($injector: angular.auto.IInjectorService): IGeoLocationProvider => {
-
-            // TODO: Instantiate and return the instantiated Provider
+            var provider = $injector.instantiate(GeoLocationProvider);
+            return provider.Provider;
         }]
     }
 
