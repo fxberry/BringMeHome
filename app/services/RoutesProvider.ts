@@ -13,41 +13,44 @@ module Services {
         ];
 
         constructor(private urls: Services.IUrls,
-            private $http: angular.IHttpService,
-            private $q: angular.IQService,
-            private logger: Services.Logger,
-            private targetAddress: Services.ITargetAddress,
-            private routesConverter: Services.IRoutesConverter) {
+                    private $http: angular.IHttpService,
+                    private $q: angular.IQService,
+                    private logger: Services.Logger,
+                    private targetAddress: Services.ITargetAddress,
+                    private routesConverter: Services.IRoutesConverter) {
 
         }
 
         GetRoutes = (position: GeoPosition.IPosition): angular.IPromise<Models.IRoutes>  => {
 
-            // TODO: Fill params for the service request
-
             var params = {
-                XLatitude: undefined,
-                YLongitude: undefined,
-                Address: undefined
+                XLatitude: position.Coordinates.Latitude,
+                YLongitude: position.Coordinates.Longitude,
+                Address: this.targetAddress.GetAddress()
             };
 
             var defer = this.$q.defer<Models.IRoutes>();
-
-            // TODO: get the url for the routes remote services
-            var url = undefined;
+            var url = this.urls.Routes();
 
             this.logger.log('starting request for routes', null, this, false);
-
-            // TODO: Do a post call to routes remote service and handle the deferred correctly
-            
+            this.$http.post(url, params)
+                .success((response: any) => {
+                    this.logger.log('request finished successfull', response, this, false);
+                    this.ResponseReceived(<Models.Messages.IRoutes>response, defer);
+                })
+                .error((data: any, status: number) => {
+                    defer.reject(status);
+                }).finally(() => {
+                    this.logger.log('request finished', null, this, false);
+                });
 
             return defer.promise;
         };
 
         private ResponseReceived = (response: Models.Messages.IRoutes, defer: angular.IDeferred<Models.IRoutes>) => {
             console.log('The connections result has been generated in: ' + (response.GenerationTime / 1000) + ' sec');
-
-            // TODO: use routesConverter to convert the response in the actual model
+            var models = this.routesConverter.Convert(response);
+            defer.resolve(models);
         };
     }
 
