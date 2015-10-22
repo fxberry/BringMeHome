@@ -28,18 +28,18 @@
         </div>
         <ion-scroll max-height="">
             <ion-list>
-                <!-- TODO: complete missing functionality -->
-                <ion-item class="item custom-item">
+                <ion-item class="item custom-item"
+                          ng-repeat="section in Sections" ng-click="OpenDirection(section.Direction)">
                     <div class="small-text"> {{'travel-details: row: leg' | i18n}}{{section.SequencePosition}}</div>
                     <div class="row">
                         <div class="col">
                             <div>
                                 <span class="small-text">{{'travel-details: row: departure'|i18n}}</span>
-                                Abfahrt
+                                {{section.Departure | date:'HH:mm'}}
                             </div>
                             <div class="col">
                                 <span class="small-text">{{'travel-details: row: arrival'|i18n}}</span>
-                                Ankunft
+                                {{section.Arrival | date:'HH:mm'}}
                             </div>
                         </div>
                         <div class="col-33">
@@ -47,7 +47,7 @@
                             <div class="col long-col">{{section.To}}</div>
                             <div class="col long-col">{{section.TravelWith}}</div>
                         </div>
-                        <div class="col-10 number-col">Gleis?</div>
+                        <div class="col-10 number-col">{{section.Platform}}</div>
                         <div class="col long-col">
                             <span ng-show="section.Direction !== null">{{'travel-details: row: open direction' | i18n}}</span>
                         </div>
