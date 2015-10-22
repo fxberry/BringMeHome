@@ -94,11 +94,14 @@ module Controllers {
         };
 
         private Start = () => {
-            this.geoLocation().then(this.GeoLocationResolved, this.OnGeoLocationError);
-            this.$ionicLoading.show({
-                templateUrl: 'app/views/loadingGps.html',
-                delay: 0
-            });
+            //this.geoLocation().then(this.GeoLocationResolved, this.OnGeoLocationError);
+            // TODO: Check and wait for geo-location and register for successfull and error callbacks
+
+            // TODO: Show pop-up 'app/views/loadingGps.html'
+            //this.$ionicLoading.show({
+            //    templateUrl: 'app/views/loadingGps.html',
+            //    delay: 0
+            //});
         };
 
         private GeoLocationResolved = (coordinates: GeoPosition.IPosition) => {
