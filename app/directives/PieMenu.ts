@@ -18,31 +18,17 @@ module Directives {
         }
 
         link = ($scope, $element, $attr) => {
-            var selectedStyle = '<i class="icon ion-home"></i>';
-            if (this.selectedLocation() === 'work') {
-                selectedStyle = '<i class="icon ion-briefcase"></i>';
-            }
-            else if (this.selectedLocation() === 'love') {
-                selectedStyle = '<i class="icon ion-heart"></i>';
-            }
 
-            var menu = new Btn(this.locations.GetAddressBy(this.selectedLocation())).addClass('skin-main_menu');
-            $(menu._elButton).append(selectedStyle);
+            // TODO: Check the selected location and set the style accordingly
 
-            var loveAddress = this.locations.GetAddressBy('love');
-            var workAddress = this.locations.GetAddressBy('work');
+            // TODO: Add the main menu skin (class) on the menu Btn
+            var menu = new Btn(this.locations.GetAddressBy(this.selectedLocation()));
 
-            if (loveAddress) {
-                this.createButton('love', 'skin-love', '<i class="icon ion-heart"></i>', menu);
-            }
+            // TODO: set the selected style on: $(menu._elButton);
 
-            this.createButton('home', 'skin-home', '<i class="icon ion-home"></i>', menu);            
+            // TODO: create the buttons on the menu with the "createButton" function
 
-            if (workAddress) {
-                this.createButton('work', 'skin-work', '<i class="icon ion-briefcase"></i>', menu);
-            }
-
-            menu.appendTo($element[0]);            
+            // TODO: add the menu button to the attributed element
         };
 
         private createButton(type: string, skin: string, icon: string, menu: any): any {
