@@ -18,36 +18,34 @@ module Controllers {
             $injections.Services.SelectedPedestrianRoute
         ];
 
-        constructor(selectedPedestrianRoute: Services.ISelectedPedestrianRoute) {
-            var coords = selectedPedestrianRoute();
-            this.from = new google.maps.LatLng(coords.from.xLatitude, coords.from.yLongitude);
-            this.to = new google.maps.LatLng(coords.to.xLatitude, coords.to.yLongitude);
+        constructor() {
+
+            // TODO: Get the coords from the selected pedestrian route
+            var coords = undefined;
+            // TODO: Set the from and the to with coordinates
+            this.from = undefined;
+            this.to = undefined;
 
             this.createMap();
             this.calculateRoute();            
         }
 
         private createMap(): void {            
-            this.directionsDisplay = new google.maps.DirectionsRenderer();            
+           // TODO: use direction renderer to render the directions
+
+            // TODO: Use this map options
             var mapOptions = {
                 zoom: 7,
                 center: this.from
             };
-            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-            this.directionsDisplay.setMap(map);
+            // TODO: Use to get the map from the DOM document.getElementById('map-canvas')
         }
 
         private calculateRoute(): void {
-            var request = {
-                origin: this.from,
-                destination: this.to,
-                travelMode: google.maps.TravelMode.WALKING
-            };
-            this.directionsService.route(request, (response, status) => {
-                if (status == google.maps.DirectionsStatus.OK) {
-                    this.directionsDisplay.setDirections(response);
-                }
-            });
+
+            // TODO: use the directions service to calculate the route (use Walking as TravelMode)
+            // TODO: set it on the display
+
         }
   }
 
