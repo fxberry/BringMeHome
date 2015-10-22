@@ -32,14 +32,17 @@ module Controllers {
 
             this.$scope.Label = strings('travel: label', location.GetAddress());
             this.$scope.Select = this.Select;
-            this.$scope.Routes = this.availableRoutes();
+
+            // TODO: set the routes
+            this.$scope.Routes = undefined;
             this.$ionicLoading.hide();
             
             this.$ionicScrollDelegate.scrollTop();
         }
 
         private Select = (route:Models.IRoute) =>{
-            this.navigation.TravelDetails(route);
+            // TODO: navigate to the detail
+
         };
     }
 
