@@ -23,7 +23,9 @@ module Controllers {
                     private navigation: Services.INavigation,
                     private openPedestrianRoute:Services.IOpenPedestrianRoute,
                     private $ionicScrollDelegate) {
-            var route = selectedRoute();
+
+            // TODO: get route
+            var route = undefined;
             $scope.Route = route;
             $scope.Sections = route.Sections;
             $scope.OpenDirection = this.OpenDirection;
@@ -32,8 +34,7 @@ module Controllers {
         }
 
         private OpenDirection = (direction:Models.IDirection) =>{
-            if (direction === null) return;            
-            this.navigation.Map(direction.From, direction.To);
+            // TODO: link to navigation
         }
     }
 
