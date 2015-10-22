@@ -18,11 +18,11 @@
                 <ion-item class="item item-travel" ng-click="Select(route)"
                           ng-repeat="route in Routes">
                     <div class="row">
-                        <div class="col">{{route.StartTime | date:'HH:mm'}}</div>
-                        <div class="col">{{route.EndTime | date:'HH:mm'}}</div>
+                        <div class="col">{{route.StartTime}}</div>
+                        <div class="col">{{route.EndTime}}</div>
                         <div class="col-33" style="white-space: normal">{{route.StartStation}}</div>
                         <div class="col" style="text-align: center">{{route.Changing}}</div>
-                        <div class="col">{{route.Duration | duration}}</div>
+                        <div class="col">{{route.Duration}}</div>
                     </div>
                 </ion-item>
             </ion-list>
