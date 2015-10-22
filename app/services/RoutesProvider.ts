@@ -23,34 +23,31 @@ module Services {
 
         GetRoutes = (position: GeoPosition.IPosition): angular.IPromise<Models.IRoutes>  => {
 
+            // TODO: Fill params for the service request
+
             var params = {
-                XLatitude: position.Coordinates.Latitude,
-                YLongitude: position.Coordinates.Longitude,
-                Address: this.targetAddress.GetAddress()
+                XLatitude: undefined,
+                YLongitude: undefined,
+                Address: undefined
             };
 
             var defer = this.$q.defer<Models.IRoutes>();
-            var url = this.urls.Routes();
+
+            // TODO: get the url for the routes remote services
+            var url = undefined;
 
             this.logger.log('starting request for routes', null, this, false);
-            this.$http.post(url, params)
-                .success((response: any) => {
-                this.logger.log('request finished successfull', response, this, false);
-                this.ResponseReceived(<Models.Messages.IRoutes>response, defer);
-            })
-                .error((data: any, status: number) => {
-                defer.reject(status);
-            }).finally(() => {
-                this.logger.log('request finished', null, this, false);
-            });
+
+            // TODO: Do a post call to routes remote service and handle the deferred correctly
+            
 
             return defer.promise;
         };
 
         private ResponseReceived = (response: Models.Messages.IRoutes, defer: angular.IDeferred<Models.IRoutes>) => {
             console.log('The connections result has been generated in: ' + (response.GenerationTime / 1000) + ' sec');
-            var models = this.routesConverter.Convert(response);
-            defer.resolve(models);
+
+            // TODO: use routesConverter to convert the response in the actual model
         };
     }
 
