@@ -12,19 +12,19 @@ module Controllers {
 
         static $inject = [
             $injections.Angular.$Scope,
-            $injections.Services.AvailableRoutes,            
+            $injections.Services.AvailableRoutes,
             $injections.Services.Strings,
-            $injections.Services.TargetAddress,            
+            $injections.Services.TargetAddress,
             $injections.Services.Navigation,
             $injections.Ionic.$ionicPopup,
             $injections.Ionic.$ionicLoading,
-            '$ionicScrollDelegate'           
+            '$ionicScrollDelegate'
         ];
 
         constructor(private $scope:ITravelScope,
-                    private availableRoutes:Services.IAvailableRoutes,                    
+                    private availableRoutes:Services.IAvailableRoutes,
                     private strings:Services.IStrings,
-                    location:Services.ITargetAddress,                    
+                    location:Services.ITargetAddress,
                     private navigation:Services.INavigation,
                     private $ionicPopup: any,
                     private $ionicLoading: any,
@@ -32,17 +32,14 @@ module Controllers {
 
             this.$scope.Label = strings('travel: label', location.GetAddress());
             this.$scope.Select = this.Select;
-
-            // TODO: set the routes
-            this.$scope.Routes = undefined;
+            this.$scope.Routes = this.availableRoutes();
             this.$ionicLoading.hide();
-            
+
             this.$ionicScrollDelegate.scrollTop();
         }
 
         private Select = (route:Models.IRoute) =>{
-            // TODO: navigate to the detail
-
+            this.navigation.TravelDetails(route);
         };
     }
 
